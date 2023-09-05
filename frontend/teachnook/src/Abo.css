@@ -1,0 +1,178 @@
+.me{
+   font-family: Arial, Helvetica, sans-serif;
+   font:20px;
+   height: 40px;
+}
+
+.super {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(150, 169, 158);
+  }
+  
+  form {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #594f4f;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    color: #333333;
+  }
+  
+  form textarea {
+    resize: vertical;
+  }
+  
+  form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .em{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .mess{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+/* Styling the navbar background */
+.navbar {
+    background-color: #222; /* Dark background color */
+    border-bottom: 1px solid #333; /* Darker border at the bottom */
+  }
+  
+  /* Styling the navigation links */
+  .nav-link {
+    color: #fff; /* White text color */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffca08; /* Gold text color on hover */
+  }
+  
+  /* Styling the dropdown menu */
+  .dropdown-menu {
+    background-color: #222; /* Dark background for dropdown */
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for dropdown */
+  }
+  
+  .dropdown-item {
+    color: #fff; /* White text color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #333; /* Slightly darker background on hover */
+    color: #ffca08; /* Gold text color on hover */
+  }
+  
+  /* Styling the toggler button */
+  
+  
+  /* Centering the navigation items vertically */
+  .navvv {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  /* Increasing spacing between dropdown items */
+  .dropdown-menu .dropdown-item {
+    padding: 10px 20px;
+  }
+  
+  /* Custom styling for the brand logo or text */
+  .navbar-brand {
+    color: #ffca08; /* Gold color for brand */
+    font-size: 24px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    color: #ffdd4f; /* Lighter gold color on hover */
+  }
+  /* General styles for larger screens */
+.me {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  height: 40px;
+}
+
+.super {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(150, 169, 158);
+}
+
+form {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+}
+
+/* Other styles... */
+@media (max-width: 600px) {
+  /* Adjustments for smaller screens */
+  
+  .me {
+    font-size: 16px; /* Decrease font size for smaller screens */
+    height: 30px; /* Adjust the height if necessary */
+  }
+
+  form {
+    width: 90%; /* Make the form slightly narrower for smaller screens */
+    padding: 20px; /* Reduce padding for smaller screens */
+  }
+
+  /* Other adjustments for smaller screens */
+}
+
+/* Additional Media Queries for Different Screen Sizes */
+@media (max-width: 768px) {
+  /* Adjustments for tablets and larger smartphones */
+  .me {
+    font-size: 18px; /* Adjust font size for tablets */
+  }
+}
+
+

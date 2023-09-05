@@ -1,0 +1,105 @@
+/* Styling for the navigation bar */
+.uis {
+    background-color: #374d65;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-family: fantasy;
+  }
+  
+  /* Styling for the h1 inside the navigation bar */
+  .heroo {
+    margin: 0;
+    font-size: 24px;
+    font-family: fantasy;
+  }
+  .hum{
+    background-color: yellowgreen;
+  }
+  /* Styling for the map container */
+  .map-container {
+    width: 100%;
+    max-width: 1200px; /* Set a maximum width for the map container */
+    margin: 0 auto; /* Center the map container horizontally */
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  /* Styling for the LoadScript component */
+  .map-container > div {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  /* Styling for the Marker icon */
+  .gm-marker {
+    width: 32px;
+    height: 32px;
+    background-color: #007bff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  /* Styling for the Marker's info window */
+  .gm-infowindow {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for links within the Marker's info window */
+  .gm-infowindow a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .gm-infowindow a:hover {
+    color: #0056b3;
+  }
+  
+  /* Styling for buttons */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  @media (max-width: 768px) {
+    .uis {
+      padding: 10px 0; /* Reduce top and bottom padding */
+    }
+    
+    .heroo {
+      font-size: 20px; /* Decrease font size */
+    }
+  
+    /* Add responsive styles for other elements as needed */
+  }
+  
+  /* Styles for screens smaller than 600px */
+  @media (max-width: 600px) {
+    .uis {
+      padding: 5px 0; /* Further reduce top and bottom padding */
+    }
+  
+    .heroo {
+      font-size: 18px; /* Further decrease font size */
+    }
+  }  
+  

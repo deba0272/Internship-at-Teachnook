@@ -1,0 +1,86 @@
+/* Card.css */
+.card {
+    width: 300px;
+    background: linear-gradient(to bottom right, #96b2c2, #81acc1);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 15px 15px 0 0;
+  }
+  
+  .card-header h2 {
+    color: #333;
+    margin: 0;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-body p {
+    color: #473939;
+    margin: 0;
+  }
+  
+  .card-footer {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-top: 1px solid #ddd;
+    border-radius: 0 0 15px 15px;
+  }
+  
+  .email-link,
+  .page-link {
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+    color: #8d9498;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .email-link:hover,
+  .page-link:hover {
+    color: #8da5b1;
+  }
+  .Apps{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .mp{
+    background-color:  rgb(137, 109, 165);
+}
+@media (max-width: 768px) {
+    .card {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    /* Additional adjustments for smaller screens ... */
+}
+
+/* Adjust font size for better scalability */
+.card h2 {
+    font-size: 18px; /* Use relative units for font size */
+}
+
+.card p {
+    font-size: 14px; /* Use relative units for font size */
+}
+
+/* Adjust padding and margin for responsiveness */
+.card-header,
+.card-body,
+.card-footer {
+    padding: 10px; /* Use percentage-based padding */
+    margin: 0; /* Reset margin for consistency */
+}
